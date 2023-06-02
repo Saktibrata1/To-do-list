@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./pexels-antoni-shkraba-4348401.jpg);
+   
+}
+
+.main {
+    background: url(./pexels-andrew-neel-2312369.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px; margin-left: 500px; height: 550px; margin-top: 60px;
+}
+
+.container {
+    background-color: burlywood;
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+    padding: 15px;
+}
+
+h2 { 
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#text-input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#add-button {
+    padding: 7px 9px;
+    border: none;
+    background-color: hsl(194, 92%, 50%);
+}
+
+.todos-container {
+    overflow-y: scroll;
+}
+
+.todo-item-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#todo-text {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: rgb(11, 11, 12);
+}
+
+#edit-button,
+#delete-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
